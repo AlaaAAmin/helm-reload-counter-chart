@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  reload-counter:
+  - apiVersion: v2
+    appVersion: 1.0.1
+    created: "2022-07-24T22:55:20.200140929+02:00"
+    description: A Helm chart for simple reload counter python app
+    digest: 2059ccb19a29648a8e8613326aa89adead7fdea45ac2565bb806836cce027255
+    name: reload-counter
+    type: application
+    urls:
+    - reload-counter-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-07-24T22:55:20.198420754+02:00"
