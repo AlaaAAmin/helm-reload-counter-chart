@@ -16,16 +16,16 @@
 ![](./run.png "run script")
 5. Built the image `docker image build -t reload-count-tornado-py-app:v1.0.2alpine .`
 6. Tagged the image `docker tag reload-count-tornado-py-app:v1.0.1alpine alaaamin/reload-count-tornado-py-app:v1.0.1alpine`
-7. Pushed the image to dockerhub `docker push alaaamin/reload-count-tornado-py-app:v1.0.1alpine`
+7. Pushed the image to dockerhub `docker push alaaamin/reload-count-tornado-py-app:v1.0.1alpine` [Docker hub](https://hub.docker.com/r/alaaamin/reload-count-tornado-py-app)
 8. Created the helm chart `helm create reload-counter`
 9. Created the chart, values file, deployment and service templates.
 
 
 ## Requirments
 
-1. you need to have helm installed on your machine [installion steps](https://helm.sh/docs/intro/install/)
-2. you need minikube or kubernetes. [minikube installation](https://minikube.sigs.k8s.io/docs/start/)
-3. Docker running on a linux os. or if you're using windows or MacOS you need it configured to run linux contaienrs
+1. Docker running on a linux os. or if you're using windows or MacOS you need it configured to run linux containers
+2. minikube or kubernetes. [minikube installation](https://minikube.sigs.k8s.io/docs/start/)
+3. helm installed on your machine [installion steps](https://helm.sh/docs/intro/install/)
 
 
 ## To fire it up
@@ -41,4 +41,4 @@ replace release-name with your release name to get the url of the service
 
 ## Author
 
-[Alaa Ahmed Amin](https://www.linkedin.com/in/alaaamin-swe/)
+[Alaa A. Amin](https://www.linkedin.com/in/alaaamin-swe/)
