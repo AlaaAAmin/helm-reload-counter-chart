@@ -1,0 +1,26 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+apiVersion: v2
+appVersion: 1.0.1
+description: A Helm chart for simple reload counter python app
+name: reload-counter
+type: application
+version: 0.1.0
+
+...
+files:
+  reload-counter-0.1.0.tgz: sha256:2059ccb19a29648a8e8613326aa89adead7fdea45ac2565bb806836cce027255
+-----BEGIN PGP SIGNATURE-----
+
+wsDcBAEBCgAQBQJi3azJCRDFInS4WuzbdQAAZ+gMADuxe1iu40fwuC1ogEpNSIaQ
+m4BD6DEjMaN6h56fFoFjyAdNA+++UQ5OtBSaj1j0E/TpFSTXkgbzfFJiNnqzG5dt
+W8wc21aZuAzDHvSfNP+zPR6AZF2u2e9HsV+1LaCCcqSHmGCfx8+k0ab5hURgNVIX
+fTfMlLtbCmw1xwRaAIejaVjFzHu2jIiti0/GqQ8tPRlQIY7fptwYXggOnQI5TN8U
+1QW8NQhzk+k2Sk8xRuJO6rNlBAG4z3M5M3rOspwR2k6sMGUmLtY6mh5/3eqJicnI
+CpHKpjKkYkJ0dlDQH1G8fR9afoTNnD/hM52zm739H98HDQUL3cd//txtLn1pCoWJ
+JZ2qWEgKKve0+HZ0NcEYTC4D/3bXS+ZTZAEYCKfvtKG5nonmbDQClhHnvQTlTFOB
+50BhXG6yEB6dIzkRqF26EdOCahLZ7sA1KK6Rq5ffYOxOvDAic+7ZVzFFkgBu/gtB
+PsLC0hWSnshL5PpSiQyrB8G+gRZgC3/gf9gzJF/P4g==
+=fQaC
+-----END PGP SIGNATURE-----
