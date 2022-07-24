@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  registry: docker.io
+  repository: alaaamin/reload-count-tornado-py-app
+  tag: v1.0.1alpine
+
+service:
+  type: LoadBalancer
+  port: 8000

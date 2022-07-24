@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-py-rc
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels:
+      app: py-rc
+  template:
+    metadata:
+      labels:
+        app: py-rc
+    spec:
+      containers:
+        - name: py-rc-container
+          {{- with .Values.image }}
+          image: {{ .registry }}/{{ .repository }}:{{ .tag }}
+          {{- end }}
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
