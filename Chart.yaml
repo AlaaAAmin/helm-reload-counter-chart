@@ -1,6 +1,0 @@
-apiVersion: v2
-name: reload-counter
-description: A Helm chart for simple reload counter python app
-type: application
-version: 0.1.0
-appVersion: "1.0.1"
